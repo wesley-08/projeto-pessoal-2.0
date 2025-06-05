@@ -4,28 +4,28 @@ DRM Solidário é um aplicativo web feito em React que permite a doação de ali
 # Funcionalidades principais:
 Formulário com campos para nome do doador, alimento e quantidade (kg).
 
-Validação para não aceitar doações com campos vazios.
+- Validação para não aceitar doações com campos vazios.
 
-Bloqueio para alimentos proibidos (como sal e alimentos perecíveis).
+- Bloqueio para alimentos proibidos (como sal e alimentos perecíveis).
 
-Exibição da lista atualizada de todas as doações feitas.
+- Exibição da lista atualizada de todas as doações feitas.
 
-Botão para limpar toda a lista de doações.
+- Botão para limpar toda a lista de doações.
 
-Limpeza dos campos após cada doação bem-sucedida.
+- Limpeza dos campos após cada doação bem-sucedida.
 
 # Testes automatizados:
-O projeto possui uma suíte com 10 testes que garantem o funcionamento correto, como:
+ - O projeto possui uma suíte com 10 testes que garantem o funcionamento correto, como:
 
-Renderização dos elementos principais.
+ - Renderização dos elementos principais.
 
-Validação dos campos obrigatórios.
+ - Validação dos campos obrigatórios.
 
-Adição correta de doações válidas.
+- Adição correta de doações válidas.
 
-Não aceitação de alimentos proibidos.
+- Não aceitação de alimentos proibidos.
 
-Limpeza dos inputs e da lista.
+ - Limpeza dos inputs e da lista.
 
-Manutenção das doações anteriores após novas inserções.
+ - Manutenção das doações anteriores após novas inserções.
 
